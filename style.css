@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "MOSCOW2024";
+    src: url(MOSCOW2024.otf);
+}
+body,html{
+    height: 100%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    display:flex;
+    flex-direction: column;
+
+    border:1px solid black;
+
+}
+.input-calc{
+    text-align: right;
+    margin:7px 10px;
+    border-bottom: 1px solid;
+    font-size: 24px;
+    font-family: "MOSCOW2024",Arial, Helvetica, sans-serif;
+}
+
+.key,.operator{
+    padding:15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:42px;
+}
+
+.keys{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:15px;
+    width:300px;
+    align-self: center;
+    margin:10px 5px;
+}
+.group-key{
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.operators,.numbers{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    gap:6px;
+}
+.numbers{
+    justify-content: center;
+}
+.operators{
+    justify-content: flex-end;
+}
+.spec-symbol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.spec{
+    width:90px;
+    padding:3px 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
